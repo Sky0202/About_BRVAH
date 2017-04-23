@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:background="#7b9dfa"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_level_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三级列表"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:textColor="#690cac"/>
+
+        <TextView
+            android:id="@+id/tv_level_three_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三级列表描述"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:textColor="#690cac"/>
+
+        <CheckBox
+            android:id="@+id/cb_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三级多选框"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
