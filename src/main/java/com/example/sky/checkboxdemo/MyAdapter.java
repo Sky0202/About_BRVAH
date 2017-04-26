@@ -89,7 +89,8 @@ public class MyAdapter extends BaseMultiItemQuickAdapter<MultiItemEntity, BaseVi
                             Log.e("isChecked","取消了");
                         }
 
-                    getData().set(helper.getLayoutPosition(), (MultiItemEntity) three);
+                        // 使用此句可能会造成item 无法伸缩,并有可能造成出现多个 item
+               //     getData().set(helper.getLayoutPosition(), (MultiItemEntity) three);
 
                     }
                 });
